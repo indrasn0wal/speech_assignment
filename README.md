@@ -147,9 +147,9 @@ These can be visualized using **Praat** to inspect word and phoneme boundaries.
 | File | Description |
 |------|--------------|
 | `data_preparation.py` | Script to normalize and prepare corpus |
-| `combined.dict` | Final pronunciation dictionary |
+| `combined_trained.dict` | Final pronunciation dictionary |
 | `aligned_output/` | Generated TextGrid alignment files |
 | `oov_words/oovs_found_english_us_arpa.txt` | List of out-of-vocabulary words |
-| `oov_generated.dict` | Pronunciations generated using G2P |
+| `oov_generated_trained.dict` | Pronunciations generated using G2P |
 | `README.md` | Setup and usage instructions |
 | `report.pdf` | Summary of results and analysis |
