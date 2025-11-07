@@ -1,0 +1,2 @@
+F2BJRLP1, mfa_corpus: 0.0-25.309125: d, u, k, a, k, i, s,  , m, e, l, n, i, c, o, v, e,  , w, b, u, r
+F2BJRLP2, mfa_corpus: 0.0-28.6474375: d, u, k, a, k, i, s,  , m, a, f, f, y,  , p, o, l, i, t, i, c, i, z, e
