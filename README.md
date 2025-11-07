@@ -77,18 +77,12 @@ Download the pretrained G2P (Grapheme-to-Phoneme) model:
 ```bash
 mfa model download g2p english_us_arpa
 ```
-
-Generate a pronunciation dictionary for OOV words, with name oov_generated.dict:
-
-```bash
-mfa g2p oov_words/oovs_found_english_us_arpa.txt english_us_arpa oov_generated.dict
-```
 Train a g2p model on the english corpus:
 
 ```bash
 mfa train_g2p /Users/indrasn0wal/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict my_trained_g2p
 ```
-Now use the trained model to predict phon
+Now use the trained model to predict phoneme
 
 ```bash
 mfa g2p oov_words/oovs_found_english_us_arpa.txt my_trained_g2p.zip oov_generated_trained.dict
