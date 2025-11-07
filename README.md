@@ -122,7 +122,7 @@ mfa validate mfa_corpus combined_trained.dict english_us_arpa
 Run the alignment process using the final combined dictionary:
 
 ```bash
-mfa align mfa_corpus combined.dict english_us_arpa aligned_output
+mfa align mfa_corpus combined_trained.dict english_us_arpa aligned_output
 ```
 
 ---
