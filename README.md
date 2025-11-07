@@ -60,7 +60,7 @@ mfa model download dictionary english_us_arpa
 Validate the corpus to identify missing or out-of-vocabulary (OOV) words:
 
 ```bash
-mfa validate mfa_corpus english_us_arpa english_us_arpa
+mfa validate mfa_corpus english_us_arpa english_us_arpa --output_directory oov_words
 ```
 
 The validation output showed **OOV words**, which were stored in:
